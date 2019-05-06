@@ -3,7 +3,7 @@ class ball {
     constructor({ ballImg }) {
         this.h = 100;
         this.w = 120;
-        this.x = width - this.w;
+        this.x = width;
         this.y = height - this.h;
         this.moveSpeed = 4;
         this.ballImg = (ballImg);

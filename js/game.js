@@ -1,4 +1,5 @@
-let totalPuppies = 1;
+let totalPuppies = 5;
+let memorySpan = 230;
 
 function setup() {
     //set vars
@@ -11,7 +12,11 @@ function setup() {
     createCanvas(this.gameSize.x, this.gameSize.y);
     grass = new grass({ 'grassImg': this.grassImg });
     ball = new ball({ 'ballImg': this.ballImg });
-    puppies = new puppies({ 'puppiesCount': totalPuppies, 'puppyImg': this.puppyImg });
+    puppies = new puppies({
+        'puppiesCount': totalPuppies,
+        'puppyImg': this.puppyImg,
+        'memorySpan': memorySpan
+    });
 }
 
 

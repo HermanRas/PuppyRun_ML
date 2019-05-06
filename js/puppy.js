@@ -9,6 +9,7 @@ class puppy {
         this.score = 0;
         this.jumping = false;
         this.puppyImg = (puppyImg);
+        this.dna = [];
     }
 
     jump() {

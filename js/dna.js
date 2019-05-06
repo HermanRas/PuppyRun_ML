@@ -1,8 +1,8 @@
-class dns {
-    constructor({ lifespan }) {
+class dna {
+    constructor({ memorySpan }) {
         this.genes = [];
-        for (let i = 0; i < lifespan; i++) {
-            genes[i] = random(0, 1);
+        for (let i = 0; i < memorySpan; i++) {
+            this.genes[i] = random(0, 1);
         }
     }
 }
