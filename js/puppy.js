@@ -50,14 +50,8 @@ class puppy {
     }
 
     draw() {
-        //score
-        textSize(32);
-        text('SCORE: ' + this.score, 10, 30);
-
-        // fill(0);
-        // rect(this.x, this.y, this.w, this.h);
         if (!this.dead) {
-            // tint(255, 127);
+            tint(255, 127);
             this.score++;
             image(this.puppyImg, this.x, this.y, this.w, this.h);
         }

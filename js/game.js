@@ -1,4 +1,4 @@
-
+let totalPuppies = 1;
 
 function setup() {
     //set vars
@@ -7,13 +7,11 @@ function setup() {
     this.grassImg = loadImage('Img/grass.png');
     this.ballImg = loadImage('Img/ball.png');
 
-
-
     //create objects
     createCanvas(this.gameSize.x, this.gameSize.y);
     grass = new grass({ 'grassImg': this.grassImg });
-    puppy = new puppy({ 'puppyImg': this.puppyImg });
     ball = new ball({ 'ballImg': this.ballImg });
+    puppies = new puppies({ 'puppiesCount': totalPuppies, 'puppyImg': this.puppyImg });
 }
 
 
@@ -21,17 +19,12 @@ function draw() {
     //fill picture
     background(224, 234, 249);
 
-    //chack for jump
-    if (keyIsDown(32)) {
-        puppy.jump();
-    }
-
     //update locations of objects
     ball.update();
-    puppy.update();
+    puppies.update();
 
     //draw new locations
     grass.draw();
-    puppy.draw();
     ball.draw();
+    puppies.draw();
 }

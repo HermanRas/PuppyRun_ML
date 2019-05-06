@@ -17,8 +17,6 @@ class ball {
     }
 
     draw() {
-        // fill(0);
-        // rect(this.x, this.y, this.w, this.h);
         tint(255);
         image(this.ballImg, this.x, this.y, this.w, this.h);
     }
