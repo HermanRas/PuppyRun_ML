@@ -1,4 +1,4 @@
-let totalPuppies = 25;
+let totalPuppies = 5;
 let memorySpan = 185;
 
 function setup() {

@@ -2,7 +2,7 @@ class puppies {
 
     constructor({ puppiesCount, puppyImg, memorySpan }) {
         this.generation = 0;
-        this.mutationRate = 0.3;
+        this.mutationRate = 0.4;
         this.bestPuppyScore = 0;
         this.bestPuppyDna = [];
         this.puppiesCount = puppiesCount;
@@ -52,7 +52,7 @@ class puppies {
                 //set mutation
                 let x = random(0, 1);
                 if (x < this.mutationRate) {
-                    console.log('mutating pupy:' + i);
+                    console.log('random new puppy:' + i);
                     this.litter[i].dna = new dna({ 'memorySpan': memorySpan });
                 }
             }
