@@ -2,7 +2,7 @@
 <img src="https://github.com/HermanRas/PuppyRun_ML/blob/master/ScreenShots/Logo.png" alt="#PuppyRun_MLLogo">
 
 # Full CREDIT to @CodeTrain on youtube:
-https://www.youtube.com/watch?v=LFU5ZlrR21E
+https://www.youtube.com/watch?v=bGz7mv2vD6g
 
 ### Latest Release
  - [!["Latest Release"](https://img.shields.io/github/release/hermanras/PuppyRun_ML.svg)](https://github.com/HermanRas/PuppyRun_ML/releases)
@@ -22,16 +22,13 @@ https://www.youtube.com/watch?v=LFU5ZlrR21E
  - [!["CSS 3"](https://img.shields.io/badge/CSS-3-blue.svg)](http://www.css3.info/)
 
 ### To Do
- - add found bee marker on right click
- - add score multiplayer on final tile or death using bee counter
+ - add score multiplayer for jumps 
+ - add speed improvements
 
 ## Index
 # Controls
-- Click on the game window and select the tile to reveal ~
-# ScoreDB
-- Score will only save when you hit save, you can restart the game by hitting the F5 key on PC or Pulling Down on phone.
-- delete score.json to clear score history
-- edit score.json to cheat
+- /player for human game.. use SPACE_BAR for jump
+- use / for Machine Learning
 
 #ScreenShots
- - <img src="https://github.com/HermanRas/PuppyRun_ML/blob/master/ScreenShots/Game.png" alt="#PuppyRun_ML-Game">
+ - <img src="https://github.com/HermanRas/PuppyRun_ML/blob/master/ScreenShots/game.png" alt="#PuppyRun_ML-Game">
