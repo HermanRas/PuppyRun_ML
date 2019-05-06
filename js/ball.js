@@ -5,7 +5,7 @@ class ball {
         this.w = 120;
         this.x = width;
         this.y = height - this.h;
-        this.moveSpeed = 4;
+        this.moveSpeed = 5;
         this.ballImg = (ballImg);
     }
 

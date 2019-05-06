@@ -1,9 +1,9 @@
-let totalPuppies = 5;
-let memorySpan = 230;
+let totalPuppies = 25;
+let memorySpan = 185;
 
 function setup() {
     //set vars
-    this.gameSize = createVector(800, 600);
+    this.gameSize = createVector(800, 400);
     this.puppyImg = loadImage('Img/puppy.png');
     this.grassImg = loadImage('Img/grass.png');
     this.ballImg = loadImage('Img/ball.png');
