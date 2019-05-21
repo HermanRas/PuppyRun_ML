@@ -3,7 +3,7 @@
 function setup() {
     //set vars
     this.gameSize = createVector(800, 400);
-    this.puppyImg = loadImage('/Img/puppy.png');
+    this.puppyImg = loadImage('Img/puppy.png');
     this.grassImg = loadImage('Img/grass.png');
     this.ballImg = loadImage('Img/ball.png');
 
